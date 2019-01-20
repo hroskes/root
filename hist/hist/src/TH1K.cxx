@@ -83,8 +83,8 @@ void TH1K::Copy(TObject &obj) const
 ////////////////////////////////////////////////////////////////////////////////
 /// Increment bin with abscissa X by 1.
 ///
-/// if x is less than the low-edge of the first bin, the Underflow bin is incremented
-/// if x is greater than the upper edge of last bin, the Overflow bin is incremented
+/// If x is less than the low-edge of the first bin, the underflow bin is incremented.
+/// If x is greater than the upper edge of last bin, the overflow bin is incremented.
 ///
 /// If the storage of the sum of squares of weights has been triggered,
 /// via the function Sumw2, then the sum of the squares of weights is incremented
